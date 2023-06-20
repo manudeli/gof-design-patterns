@@ -8,7 +8,8 @@ const WorkboxWebpackPlugin = require('workbox-webpack-plugin')
 const isProduction = process.env.NODE_ENV == 'production'
 
 const config = {
-  entry: './src/01-iterator/index.ts',
+  // entry: './src/01-iterator/index.ts',
+  entry: './src/02-strategy/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
