@@ -10,7 +10,8 @@ const isProduction = process.env.NODE_ENV == 'production'
 const config = {
   // entry: './src/01-iterator/index.ts',
   // entry: './src/02-strategy/index.ts',
-  entry: './src/03-template-method/index.ts',
+  // entry: './src/03-template-method/index.ts',
+  entry: './src/04-adapter/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },

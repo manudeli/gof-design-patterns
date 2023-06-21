@@ -1,0 +1,5 @@
+export { default as Animal } from './Animal'
+export { default as Cat } from './Cat'
+export { default as Dog } from './Dog'
+export { default as Tiger } from './Tiger'
+export { default as TigerAdapter } from './TigerAdapter'
