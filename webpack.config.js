@@ -11,7 +11,8 @@ const config = {
   // entry: './src/01-iterator/index.ts',
   // entry: './src/02-strategy/index.ts',
   // entry: './src/03-template-method/index.ts',
-  entry: './src/04-adapter/index.ts',
+  // entry: './src/04-adapter/index.ts',
+  entry: './src/05-bridge/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
