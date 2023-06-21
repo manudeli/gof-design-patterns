@@ -13,7 +13,8 @@ const config = {
   // entry: './src/03-template-method/index.ts',
   // entry: './src/04-adapter/index.ts',
   // entry: './src/05-bridge/index.ts',
-  entry: './src/06-decorator/index.ts',
+  // entry: './src/06-decorator/index.ts',
+  entry: './src/07-singleton/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
