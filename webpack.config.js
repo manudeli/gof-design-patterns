@@ -16,7 +16,8 @@ const config = {
   // entry: './src/06-decorator/index.ts',
   // entry: './src/07-singleton/index.ts',
   // entry: './src/08-flyweight/index.ts',
-  entry: './src/09-composite/index.ts',
+  // entry: './src/09-composite/index.ts',
+  entry: './src/10-factory-method/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
