@@ -1,0 +1,16 @@
+.digit-layout {
+    display: grid;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 2px;
+
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1px;
+    padding: 2px;
+}
+
+.digit-layout div{
+    border-radius: 50%;
+}
