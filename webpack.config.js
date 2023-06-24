@@ -18,7 +18,8 @@ const config = {
   // entry: './src/08-flyweight/index.ts',
   // entry: './src/09-composite/index.ts',
   // entry: './src/10-factory-method/index.ts',
-  entry: './src/11-observer/index.ts',
+  // entry: './src/11-observer/index.ts',
+  entry: './src/12-mediator/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },

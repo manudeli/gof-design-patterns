@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.home div {
+  border: 2px solid black;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: #34495e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.home div.highlighting {
+  color: black;
+  background-color: aquamarine;
+}
