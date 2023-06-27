@@ -19,7 +19,8 @@ const config = {
   // entry: './src/09-composite/index.ts',
   // entry: './src/10-factory-method/index.ts',
   // entry: './src/11-observer/index.ts',
-  entry: './src/12-mediator/index.ts',
+  // entry: './src/12-mediator/index.ts',
+  entry: './src/13-memento/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
