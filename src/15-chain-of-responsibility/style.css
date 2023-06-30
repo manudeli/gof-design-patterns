@@ -1,0 +1,26 @@
+.result {
+    margin-top: 1rem;
+}
+
+.layout {
+    display: flex;
+    padding: 0.5rem;
+    background-color: lightgray;
+    gap: 0.5rem
+}
+
+.title{
+    background-color: gray;
+    padding: 0.3rem 1rem;
+    color: white;
+    border-radius: 1rem;
+    width: 6rem;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    padding: 0.3rem 1rem;
+    color: black;
+    border-radius: 1rem;
+}
