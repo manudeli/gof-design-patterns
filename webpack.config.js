@@ -23,7 +23,8 @@ const config = {
   // entry: './src/13-memento/index.ts',
   // entry: './src/14-proxy/index.ts',
   // entry: './src/15-chain-of-responsibility/index.ts',
-  entry: './src/16-prototype/index.ts',
+  // entry: './src/16-prototype/index.ts',
+  entry: './src/17-facade/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
