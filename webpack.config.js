@@ -24,7 +24,9 @@ const config = {
   // entry: './src/14-proxy/index.ts',
   // entry: './src/15-chain-of-responsibility/index.ts',
   // entry: './src/16-prototype/index.ts',
-  entry: './src/17-facade/index.ts',
+  // entry: './src/17-facade/index.ts',
+  // entry: './src/18-builder-1/index.ts',
+  entry: './src/18-builder-2/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
