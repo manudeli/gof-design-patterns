@@ -1,0 +1,64 @@
+.talk {
+    position: relative;
+    background-color: #34495e;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.talk::before {
+    content: "플레이어의 말";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 0.5rem;
+    background-color: black;
+    padding: 0.2rem 0.5rem;
+}
+
+.description {
+    position: relative;
+    background-color: #f1c40f;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.description::before {
+    content: "플레이어의 상태";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 0.5rem;
+    background-color: black;
+    padding: 0.2rem 0.5rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.actions div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ecc71;
+    width: 4rem;
+    height: 2rem;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.actions div:active {
+    background-color: #e74c3c;
+}
