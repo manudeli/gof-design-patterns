@@ -27,7 +27,8 @@ const config = {
   // entry: './src/17-facade/index.ts',
   // entry: './src/18-builder-1/index.ts',
   // entry: './src/18-builder-2/index.ts',
-  entry: './src/19-command/index.ts',
+  // entry: './src/19-command/index.ts',
+  entry: './src/20-abstract-factory/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
